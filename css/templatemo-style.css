@@ -8,6 +8,8 @@ https://templatemo.com/tm-516-known
 
   @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
   @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+    @import url(//fonts.googleapis.com/css?family=Oregano|Merienda);
+
 
   body {
     background: #ffe0e0;
@@ -872,6 +874,28 @@ https://templatemo.com/tm-516-known
     margin: 5px 10px 5px 0;
   }
 
+
+.mwl {
+font-family: 'Merienda', cursive;
+}
+.ks {
+font-family: 'Oregano', cursive;
+font-size:18px;
+text-align: left;
+margin-left: 0;
+}
+.ks-small {
+font-family: 'Oregano', cursive;
+}
+.ks-small a{
+text-transform: none !important;
+color: #721429;
+}
+.ks a{
+text-transform: none !important;
+color: #721429;
+}
+
   .newsletter-form .form-control {
     background: transparent;
     border-radius: 0;
@@ -982,6 +1006,16 @@ https://templatemo.com/tm-516-known
     .custom-navbar .nav li a {
       padding-right: 10px;
       padding-left: 10px;
+    }
+  }
+
+.footer-media{
+  text-align: right;
+}
+  @media only screen and (max-width: 768px) {
+    .footer-media{
+      text-align: left;
+      font-size: 
     }
   }
 

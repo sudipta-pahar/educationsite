@@ -186,6 +186,16 @@ color: #721429;
     padding: 100px 0;
   }
 
+  .footer-media{
+  text-align: right;
+}
+  @media only screen and (max-width: 768px) {
+    .footer-media{
+      text-align: left;
+      font-size: 
+    }
+  }
+
 
 /*
 
