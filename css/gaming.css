@@ -11,6 +11,8 @@ https://templatemo.com/tm-516-known
   @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
 
   body {
     background: #ffe0e0;
@@ -85,7 +87,12 @@ color: #721429;
 text-transform: none !important;
 color: #721429;
 }
-
+.copyright{
+	font-size: 18px;
+}
+.footer-media{
+	font-size: 18px;
+}
   /*---------------------------------------
      GENERAL               
   -----------------------------------------*/
@@ -192,9 +199,16 @@ color: #721429;
   @media only screen and (max-width: 768px) {
     .footer-media{
       text-align: left;
-      font-size: 
+      font-size: 10px;
+    }
+    .copyright{
+    	font-size: 10px;
+    }
+    .ks{
+    	font-size: 10px;
     }
   }
+  
 
 
 /*

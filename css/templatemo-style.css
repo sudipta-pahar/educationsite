@@ -8,7 +8,8 @@ https://templatemo.com/tm-516-known
 
   @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
   @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
-    @import url(//fonts.googleapis.com/css?family=Oregano|Merienda);
+    @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
 
 
   body {
@@ -1012,10 +1013,22 @@ color: #721429;
 .footer-media{
   text-align: right;
 }
+.copyright{
+  font-size: 18px;
+}
+.footer-media{
+  font-size: 18px;
+}
   @media only screen and (max-width: 768px) {
     .footer-media{
       text-align: left;
-      font-size: 
+      font-size: 10px;
+    }
+    .copyright{
+      font-size: 10px;
+    }
+    .ks{
+      font-size: 10px;
     }
   }
 
